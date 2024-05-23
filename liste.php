@@ -59,7 +59,6 @@ $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
               <th scope="col">Prenom</th>
               <th scope="col">Email</th>
               <th scope="col">Telephone</th>
-              <th scope="col">Fichier</th>
               <th scope="col">Option</th>
             </tr>
           </thead>
@@ -71,7 +70,6 @@ $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
                 <td><?php echo $client['prenom']; ?></td>
                 <td><?php echo $client['email']; ?></td>
                 <td><?php echo $client['telephone']; ?></td>
-                <td><?php echo $client['fichier']; ?></td>
                 <td>
                   <a href="view.php?id=<?php echo $client['id']; ?>" class="text-green"><i class="fa-solid fa-eye"></i></a>
                   <a href="edit.php?id=<?php echo $client['id']; ?>"><i class="fas fa-edit"></i></a>
