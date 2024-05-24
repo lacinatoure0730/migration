@@ -1,7 +1,7 @@
 <div class="bg">
         <div class="form-container">
           <h2>Contactez-nous</h2>
-          <form action="/submit_form.php" method="POST" enctype="multipart/form-data">
+          <form action="data.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
               <label for="nom">Nom:</label>
               <input type="text" id="nom" name="nom" required>
